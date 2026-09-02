@@ -1,0 +1,29 @@
+# Wirtualne środowisko
+venv/
+.venv/
+env/
+
+# Bajtkod / cache Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Baza danych (dane lokalne / runtime)
+*.db
+*.sqlite
+*.sqlite3
+
+# Zmienne środowiskowe / sekrety
+.env
+.env.*
+!.env.example
+
+# Narzędzia / IDE
+.vscode/
+.idea/
+*.egg-info/
+build/
+dist/
+
+# Logi
+*.log
